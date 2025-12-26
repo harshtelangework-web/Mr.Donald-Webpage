@@ -1,0 +1,46 @@
+/* Page background */
+body {
+    margin: 0;
+    background-color: #EADFC4;
+}
+
+/* Container for boxes - floating at top center */
+.icon-wrapper {
+    position: fixed;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    z-index: 9999;
+}
+
+/* White boxes */
+.icon-box {
+    width: 90px;
+    height: 90px;
+    background-color: #ffffff;
+    border: 4px solid #000;
+    box-shadow: 10px 10px 0 #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Video icons */
+.icon-box video {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+/* 🍕 IMAGE STYLE (THIS IS WHAT YOU NEED) */
+.Pizza {
+    display: block;
+    width: 520px;          /* increase image size */
+    margin: 80px auto 0;  /* move image down */
+}
